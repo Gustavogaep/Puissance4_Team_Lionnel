@@ -15,7 +15,7 @@ def Main():
     elif choix == 2:
         Joueur_vs_ai_aleatoire()
     elif choix == 3:
-        joueur_vs_joueur()
+        Joueur_vs_joueur()
     else:
         print(f"Le choix {choix} est invalide, réessayez.")
         Main()
