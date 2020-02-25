@@ -34,7 +34,7 @@ def verifier_victoire_diagonale(grille, numero_joueur, index_ligne, index_colonn
     b = False
     i = index_colonne
     j = index_ligne
-    while (i <= len(grille[index_colonne]) and j <= len(grille[index_ligne])):
+    while (i <= len(grille[index_colonne]) or j <= len(grille[index_ligne])):
         if grille[j][i] == numero_joueur:
             a += 1
             if a == 4:
