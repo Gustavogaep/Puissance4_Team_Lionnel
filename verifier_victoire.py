@@ -1,4 +1,6 @@
 def verifier_victoire_verticale(grille, numero_joueur, index_ligne, index_colonne):
+    """fonction verifiant si 4 pions sont alignés à la verticale
+    """
     a = 0
     b = False
     for i in range(len(grille[index_colonne])):
@@ -11,6 +13,8 @@ def verifier_victoire_verticale(grille, numero_joueur, index_ligne, index_colonn
     return b
 
 def verifier_victoire_horizontale(grille, numero_joueur, index_ligne, index_colonne):
+    """fonction verifiant si 4 pions sont alignés à l'horizontale
+    """
     a = 0
     b = False
     for i in range(len(grille[index_ligne])):
@@ -24,6 +28,8 @@ def verifier_victoire_horizontale(grille, numero_joueur, index_ligne, index_colo
 
 
 def verifier_victoire_diagonale(grille, numero_joueur, index_ligne, index_colonne):
+    """fonction verifiant si 4 pions sont alignés dans des diagonales
+    """
     a = 0
     b = False
     i = index_colonne
