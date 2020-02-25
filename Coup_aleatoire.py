@@ -1,3 +1,4 @@
 from random import randint
 def Coup_aleatoire(grille, numero_joueur):
-    aleatoire = randint(1,6)
+    aleatoire = randint(0,6)
+    return(Jouer(grille,numero_joueur,aleatoire))
