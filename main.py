@@ -4,7 +4,6 @@ def Main():
     """
     print("(1)---> Le mode de jeu Ai contre Ai.")
     print("(2)---> Le mode de jeu Joueur contre Ai.")
-    print("(3)---> Le mode de jeu est Joueur contre Joueur.")
     try:
         choix = int(input("Choisissez un mode de jeu:"))
     except ValueError:
@@ -14,8 +13,7 @@ def Main():
         Ai_vs_ai_aleatoire()
     elif choix == 2:
         Joueur_vs_ai_aleatoire()
-    elif choix == 3:
-        Joueur_vs_joueur()
     else:
         print(f"Le choix {choix} est invalide, réessayez.")
         Main()
+        
