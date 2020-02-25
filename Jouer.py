@@ -4,6 +4,7 @@ def jouer(grille, numero_joueur, index_colonne):
      for i in range(5,-1,-1):
             if grille[i][index_colonne] == 0:
                 grille[i][index_colonne] = numero_joueur
+                Affiche_grille(grille)
                 return(grille)
 
 
