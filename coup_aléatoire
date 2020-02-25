@@ -1,0 +1,6 @@
+from random import randint
+def coup_aléatoire(grille, numero_joueur):
+  if numero_joueur ==1:
+    randint(Coup_possible)==1
+  else:
+    randint(Coup_possible)==2
